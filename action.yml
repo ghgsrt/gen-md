@@ -1,0 +1,5 @@
+name: 'gen-md'
+description: 'Generate markdown from JS/TS source files action'
+runs:
+    using: 'node16'
+    main: 'dist/index.js'
